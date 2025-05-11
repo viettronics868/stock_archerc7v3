@@ -1,1 +1,2 @@
 # stock_archerc7v3
+this is the stock firmware repo. I was set up tftp interface and 'tpl' keyword to interrupt regular boot process and gain access into u-boot of archer c7. From u-boot, I use ftftboot and bootm to set up openwrt-xxx-initramfs-kernel.bin file at the address 0x82000000 of RAM. The result is OpenWrt runs in failsafe mode. From that mode, I dumped these partitions: u-boot, kernel, rootfs, art and stored them here. I also stored some of my work when working as reverse engineering on archerc7v3.
