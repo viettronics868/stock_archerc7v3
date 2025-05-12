@@ -1,0 +1,15 @@
+Package: libudev-zero
+Version: 1.0.1-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: feeds/packages/libs/libudev-zero
+SourceName: libudev-zero
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1741866327
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: mips_24kc
+Installed-Size: 7910
+Description:  Drop-in replacement for libudev

@@ -1,0 +1,5 @@
+/etc/modules-boot.d/40-usb2
+/lib/modules/5.15.150/ehci-fsl.ko
+/etc/modules.d/40-usb2
+/lib/modules/5.15.150/fsl-mph-dr-of.ko
+/lib/modules/5.15.150/ehci-platform.ko

@@ -1,0 +1,5 @@
+/lib/modules/5.15.150/scsi_mod.ko
+/lib/modules/5.15.150/sd_mod.ko
+/lib/modules/5.15.150/scsi_common.ko
+/etc/modules-boot.d/40-scsi-core
+/etc/modules.d/40-scsi-core

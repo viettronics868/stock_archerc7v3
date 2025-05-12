@@ -1,0 +1,68 @@
+{
+	"model": {
+		"id": "tplink,archer-c7-v2",
+		"name": "TP-Link Archer C7 v2"
+	},
+	"switch": {
+		"switch0": {
+			"enable": true,
+			"reset": true,
+			"ports": [
+				{
+					"num": 0,
+					"device": "eth1",
+					"need_tag": false,
+					"want_untag": false
+				},
+				{
+					"num": 2,
+					"role": "lan"
+				},
+				{
+					"num": 3,
+					"role": "lan"
+				},
+				{
+					"num": 4,
+					"role": "lan"
+				},
+				{
+					"num": 5,
+					"role": "lan"
+				},
+				{
+					"num": 6,
+					"device": "eth0",
+					"need_tag": false,
+					"want_untag": false
+				},
+				{
+					"num": 1,
+					"role": "wan"
+				}
+			],
+			"roles": [
+				{
+					"role": "lan",
+					"ports": "2 3 4 5 0t",
+					"device": "eth1.1"
+				},
+				{
+					"role": "wan",
+					"ports": "1 6t",
+					"device": "eth0.2"
+				}
+			]
+		}
+	},
+	"network": {
+		"lan": {
+			"device": "eth1.1",
+			"protocol": "static"
+		},
+		"wan": {
+			"device": "eth0.2",
+			"protocol": "dhcp"
+		}
+	}
+}

@@ -1,0 +1,11 @@
+Package: kmod-phy-ath79-usb
+Version: 5.15.150-1
+Depends: kernel (=5.15.150-1-34a8cffa541c94af8232fe9af7a1f5ba), kmod-usb-core
+Source: package/kernel/linux
+SourceName: kmod-phy-ath79-usb
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1709893690
+Architecture: mips_24kc
+Installed-Size: 243
+Description:  Support for ATH79 USB transceiver
